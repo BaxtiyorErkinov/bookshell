@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Oswald:wght@300&family=Poppins:wght@200;300&family=Roboto&display=swap');
+
+.home__title {
+  color: #000;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 16px;
+}
+.books__list {
+  padding: 16px 32px;
+}
+.create-btn {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: #ff0038;
+  color: #ffff;
+  z-index: 999;
+}
+.create-btn:hover {
+  background: #ff0038;
+}
+
+.notfound {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  line-height: 100px;
+  width: 100%;
+  color: #1976d2;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.title h1 {
+  color: #1976d2;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  margin: 30px 0;
+}

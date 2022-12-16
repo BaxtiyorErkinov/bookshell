@@ -1,0 +1,14 @@
+.MuiAlert-message {
+  display: flex;
+  align-items: center;
+}
+.alert__main-icon {
+  margin-right: 10px;
+  font-size: 18px;
+  display: flex;
+}
+.alert {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}

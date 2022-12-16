@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "target": "es5",
+    "noFallthroughCasesInSwitch": true
+  },
+  "paths": {
+    "ol": ["node_modules/ol/src"],
+    "ol/*": ["node_modules/ol/src/*"]
+  },
+  "exclude": ["node_modules", "build"],
+  "include": ["src", "**/*.ts", "node_modules/ol/**/*"],
+  "typeRoots": ["../node_modules/@types", "../@types"],
+  "typeAcquisition": {
+    "exclude": ["ol"]
+  }
+}
+
